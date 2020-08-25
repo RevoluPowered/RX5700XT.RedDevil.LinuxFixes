@@ -11,3 +11,8 @@ https://bugzilla.kernel.org/show_bug.cgi?id=208893
 Run ./install.sh
 
 it will copy a systemd service onto your computer and run the contents of fix-amdgpu.sh
+
+
+For me this resolves:
+- screen flickering
+- degraded / poor performance with the NAVI gpu.
