@@ -1,0 +1,9 @@
+[Unit]
+Description=Fixes AMDGPU driver with RX 5700 XT Red Devil cards
+After=network.target
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/fix-amdgpu.sh
+RemainAfterExit=yes
+[Install]
+WantedBy=multi-user.target
